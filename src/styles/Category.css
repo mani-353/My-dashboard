@@ -1,26 +1,53 @@
 /* src/components/Category.css */
 
 .category-card {
-    margin-bottom: 20px;
-    /* Space between categories */
+    margin: auto;
+    max-width: max-content;
+    width: fit-content;
+    /* Full width of the viewport */
     background-color: #f9f9f9;
-    /* Adjust based on your theme */
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .category-body {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    /* Space between widgets */
+    justify-content: center;
 }
 
 .widget-container {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    width: 100%;
 }
 
-.category-footer {
+.widget-card {
+    flex: 1 1 calc(25% - 15px);
+    /* 4 widgets per row with spacing */
+    max-width: calc(25% - 15px);
+    /* Ensure maximum width is 25% minus gap */
+    box-sizing: border-box;
+    /* Include padding and border in width calculation */
+}
+
+.widget-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    /* Ensure consistent height */
 }

@@ -23,7 +23,7 @@ const SearchWidget = () => {
   };
 
   return (
-    <div className="mb-4">
+    <div style={{ marginLeft: '30rem', marginTop: '20px', marginBottom: '20px', maxWidth: '700px' }}>
       <input
         type="text"
         className="form-control"

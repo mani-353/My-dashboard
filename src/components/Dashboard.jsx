@@ -20,19 +20,19 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <div style={{ width: '93rem' }}>
       <ToastContainer />
       <SearchWidget />
-      <div className="mt-3">
-        {categories.map((category) => (
-          <Category
-            key={category.id}
-            category={category}
-            onAddWidget={handleAddWidget}
-            onRemoveWidget={handleRemoveWidget}
-          />
-        ))}
-      </div>
+
+      {categories.map((category) => (
+        <Category
+          key={category.id}
+          category={category}
+          onAddWidget={handleAddWidget}
+          onRemoveWidget={handleRemoveWidget}
+        />
+      ))}
+
     </div>
   );
 };
