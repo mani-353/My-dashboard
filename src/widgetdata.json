@@ -1,0 +1,190 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "CSPM Executive Dashboard",
+            "widgets": [
+                {
+                    "id": 1,
+                    "name": "Cloud Accounts",
+                    "chartType": "PieChart",
+                    "data": [
+                        [
+                            "Status",
+                            "Count"
+                        ],
+                        [
+                            "Connected",
+                            2
+                        ],
+                        [
+                            "Not Connected",
+                            2
+                        ]
+                    ],
+                    "options": {
+                        "title": "Cloud Accounts"
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "Cloud Account Risk Assessment",
+                    "chartType": "PieChart",
+                    "data": [
+                        [
+                            "Status",
+                            "Count"
+                        ],
+                        [
+                            "Failed",
+                            1989
+                        ],
+                        [
+                            "Warning",
+                            681
+                        ],
+                        [
+                            "Not Available",
+                            56
+                        ],
+                        [
+                            "Passed",
+                            7233
+                        ]
+                    ],
+                    "options": {
+                        "title": "Cloud Account Risk Assessment"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "CWPP Dashboard",
+            "widgets": [
+                {
+                    "id": 3,
+                    "name": "Top 5 Namespace Specific Alerts",
+                    "chartType": "BarChart",
+                    "data": [
+                        [
+                            "Namespace",
+                            "Alerts"
+                        ],
+                        [
+                            "Namespace 1",
+                            100
+                        ],
+                        [
+                            "Namespace 2",
+                            200
+                        ],
+                        [
+                            "Namespace 3",
+                            150
+                        ],
+                        [
+                            "Namespace 4",
+                            80
+                        ],
+                        [
+                            "Namespace 5",
+                            50
+                        ]
+                    ],
+                    "options": {
+                        "title": "Top 5 Namespace Specific Alerts"
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "Workload Alerts",
+                    "chartType": "BarChart",
+                    "data": [
+                        [
+                            "Workload",
+                            "Alerts"
+                        ],
+                        [
+                            "Workload 1",
+                            100
+                        ],
+                        [
+                            "Workload 2",
+                            200
+                        ],
+                        [
+                            "Workload 3",
+                            150
+                        ]
+                    ],
+                    "options": {
+                        "title": "Workload Alerts"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Registry Scan",
+            "widgets": [
+                {
+                    "id": 5,
+                    "name": "Image Risk Assessment",
+                    "chartType": "LineChart",
+                    "data": [
+                        [
+                            "Risk Level",
+                            "Vulnerabilities"
+                        ],
+                        [
+                            "Critical",
+                            10
+                        ],
+                        [
+                            "High",
+                            20
+                        ],
+                        [
+                            "Medium",
+                            30
+                        ],
+                        [
+                            "Low",
+                            40
+                        ]
+                    ],
+                    "options": {
+                        "title": "Image Risk Assessment"
+                    }
+                },
+                {
+                    "id": 6,
+                    "name": "Image Security Issues",
+                    "chartType": "LineChart",
+                    "data": [
+                        [
+                            "Issue",
+                            "Count"
+                        ],
+                        [
+                            "Critical",
+                            1
+                        ],
+                        [
+                            "High",
+                            2
+                        ],
+                        [
+                            "Medium",
+                            3
+                        ]
+                    ],
+                    "options": {
+                        "title": "Image Security Issues"
+                    }
+                }
+            ]
+        }
+    ]
+}

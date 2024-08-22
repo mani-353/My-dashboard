@@ -1,0 +1,26 @@
+/* src/components/Category.css */
+
+.category-card {
+    margin-bottom: 20px;
+    /* Space between categories */
+    background-color: #f9f9f9;
+    /* Adjust based on your theme */
+    border-radius: 8px;
+}
+
+.category-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* Space between widgets */
+}
+
+.widget-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.category-footer {
+    padding: 15px;
+}

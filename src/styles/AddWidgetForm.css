@@ -1,0 +1,12 @@
+/* src/components/AddWidgetForm.css */
+
+.widget-form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* Space between form inputs */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}

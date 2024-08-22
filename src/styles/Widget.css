@@ -1,0 +1,25 @@
+/* src/components/Widget.css */
+
+.widget-card {
+    min-width: 300px;
+    margin: 10px; /* Space between widgets */
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Adjust based on your theme */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .widget-card-body {
+    padding: 15px;
+  }
+  
+  .remove-btn {
+    margin-left: auto;
+  }
+  
+  .widget-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
